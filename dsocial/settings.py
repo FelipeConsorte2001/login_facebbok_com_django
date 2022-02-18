@@ -135,3 +135,9 @@ AUTHENTICATION_BACKENDS = [
     # apenas se você quiser manter a autenticação padrão do django
     'django.contrib.auth.backends.ModelBacken'
 ]
+
+LOGIN_URL = 'login'
+LOGIN_REDIRECT_URL = 'index'
+LOGOUT_URL = 'logout'
+LOGOUT_REDIRECT_URL = 'login'
+
